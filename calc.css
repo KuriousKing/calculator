@@ -1,0 +1,33 @@
+body {
+    background-color: grey;
+}
+
+table {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.btn {
+    border: 2px solid cyan;
+    padding: 20px 100px;
+    border-radius: 10px;
+    margin: 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.screen {
+    display: flex;
+    border: 5px solid black;
+    padding: 10px 100px;
+    border-radius: 5px;
+    margin: 15px auto;
+    font-size: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(52, 52, 52);
+}
